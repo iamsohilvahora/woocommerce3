@@ -71,6 +71,14 @@ if(!function_exists('load_wc_features')){
 		// add recommended products to empty cart page
 		add_action('woocommerce_cart_is_empty', 'show_cart_recommended_products');
 
+		// if price less than 100 then redirect to cart page instead of checkout page
+		add_action('woocommerce_before_checkout_form', 'wc_before_checkout_form');
+
+		/** (part-17)
+			woocommerce settings tab array = 
+		    add_filter( 'woocommerce_settings_tabs_array','callback_function');
+		*/
+
 
 	}
 }
@@ -220,6 +228,18 @@ function wc_cart_calculate_fees($cart){
 	// print_r($cart);
 	// print_r($cart->get_cart_item_quantities());
 
+	// hide proceed to checkout button if price less than 100
+	$minimum_total = 100;
+	$cart_total = $cart->get_totals()['subtotal'];
+
+	if($cart_total < $minimum_total){
+		if(is_cart()){
+			wc_add_notice('You need to have min $100 in cart', 'error');
+		}
+		remove_action('woocommerce_proceed_to_checkout', 'wc_get_pay_buttons', 10);
+		remove_action('woocommerce_proceed_to_checkout', 'woocommerce_button_proceed_to_checkout', 20);
+	}	
+
 	foreach($cart->get_cart_item_quantities() as $id => $val){
 		$quantity = get_field('product_quantity', $id);
 		$percentage = get_field('discount_amount', $id);
@@ -268,6 +288,17 @@ function show_cart_recommended_products(){
 	else{
 		_e("No recommeded products found", "woocommerce");		
 	}
+}
+
+function wc_before_checkout_form(){
+	// redirect to cart page if price less than 100
+	$minimum_total = 100;
+	$cart_total = wc()->cart->get_totals()['subtotal'];
+
+	if($cart_total < $minimum_total){
+		$site_url = get_site_url();
+		wp_redirect($site_url.'/cart/');
+	}	
 }
 
 ?>
