@@ -29,9 +29,47 @@ if(!function_exists('load_wc_features')){
 		// Make slider from product thumbnail or add video
 		add_action('woocommerce_before_shop_loop_item_title', 'wc_product_thumbnail_slide', 9);
 
+		// Add video in single product page
+		add_filter('woocommerce_single_product_image_thumbnail_html', 'wc_single_product_video');
 
+		// customize product data tabs of single product page
+		add_filter('woocommerce_product_tabs' ,'load_single_product_data_tabs');
 
+		// Change position of single meta (remove action then add action)
+		remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40);
+
+		add_action('woocommerce_single_product_summary', 'woocommerce_template_single_meta', 6);
+
+		// Change title position to left (remove action then add action)
+		remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_title', 5);
+
+		add_action('woocommerce_before_single_product_summary', 'woocommerce_template_single_title', 5);
+
+		// customize product sale flash
+		add_filter('woocommerce_sale_flash','wc_product_sale_flash', 10, 3);
+
+		// single product sale msg after price
+		add_action('woocommerce_single_product_summary','wc_single_product_sale_msg', 11);
+
+		// show how many time quantity purchased on product and single product page  
+		add_action('woocommerce_before_shop_loop_item_title','wc_show_purchased_quantity');
 		
+		add_action('woocommerce_single_product_summary','wc_show_purchased_quantity', 35);
+
+		// empty cart message (Using action or filter hooks)
+		// add_filter('wc_empty_cart_message', 'show_empty_cart_msg');
+		// function show_empty_cart_msg($msg){
+		// 	$msg = "You have no product in basket";
+		// 	return $msg;
+		// }
+		remove_action('woocommerce_cart_is_empty', 'wc_empty_cart_message', 10);
+		add_action('woocommerce_cart_is_empty', 'show_empty_cart_msg', 10);
+
+		// add discount to cart without coupon
+		add_action('woocommerce_cart_calculate_fees', 'wc_cart_calculate_fees');
+
+		// add recommended products to empty cart page
+		add_action('woocommerce_cart_is_empty', 'show_cart_recommended_products');
 
 
 	}
@@ -86,7 +124,7 @@ function wc_product_thumbnail_slide(){
 		echo "<div class='flexslider'><ul class='slides'>";
 
 		if($video){
-			echo "<li data-thumb='{$video['icon']}'><video controls width='100%' height='150'><source src='{$video['url']}' type='video/mp4' /></video></li>";
+			echo "<li data-thumb='".wc_placeholder_video_thumb()."'><video controls width='100%' height='150'><source src='{$video['url']}' type='video/mp4' /></video></li>";
 		}
 
 		echo "<li data-thumb='{$image_thumb[0]}'><img src='{$image_thumb[0]}' /></li>";
@@ -102,5 +140,134 @@ function wc_product_thumbnail_slide(){
 	}
 }
 
+function wc_single_product_video($html){
+	$video = get_field('video_file');
+	if($video && isset($video['title']) && isset($video['url'])){	
+		$html .= '<div data-thumb="' . wc_placeholder_video_thumb() . '" data-thumb-alt="' . esc_attr( $video['title'] ) . '" class="woocommerce-product-gallery__image"><video controls width="100%" height="350"><source src="' . $video['url'] . '" /></video></div>';
+	}
+	return $html;
+}
+
+// function for video thumbnail image
+function wc_placeholder_video_thumb($size = 'woocommerce_thumbnail')
+{
+	$src = get_template_directory_uri() . '/images/download.jpg';
+	return apply_filters('woocommerce_placeholder_video_thumb', $src);
+}
+
+// Single product data tabs
+function load_single_product_data_tabs($tabs){
+	global $product;
+	// print_r($tabs);
+	// unset($tabs['additional_information']);
+	$tabs['additional_information']['priority'] = 9;
+	$tabs['description']['title'] = $product->get_title() . " Description";
+
+	// add new tab
+	$video_review = array('title' => $product->get_title() . " Video", 'priority' => 11, 'callback' => 'wc_video_review_data');
+
+	$video = get_field('video_file');
+	if($video && isset($video['title']) && isset($video['url'])){
+		$tabs['video'] = $video_review;
+	}		
+	return $tabs;
+}
+
+function wc_video_review_data(){
+	$video = get_field('video_file');
+	if($video && isset($video['title']) && isset($video['url'])){	
+		echo '<video controls width="100%" height="350"><source src="' . $video['url'] . '" /></video>';
+	}
+}
+
+function wc_product_sale_flash($html, $post, $product){
+	global $product;
+	if($product->is_on_sale() && $product->is_type('simple')):
+		$discount = $product->get_regular_price() - $product->get_price();
+		echo '<span class="onsale">' . __(sprintf('Saved %s', wc_price($discount)), 'woocommerce' ) . '</span>';
+	else:
+		return $html;
+	endif;
+}
+
+function wc_single_product_sale_msg(){
+	global $product;
+	if($product->is_on_sale() && $product->is_type('simple')):
+		$discount = $product->get_regular_price() - $product->get_price();
+		echo '<h4 class="badge badge-info text-success">';
+		_e(sprintf('Saved %s', wc_price($discount)), 'woocommerce');
+		echo '</h4>';
+	endif;
+}
+
+function wc_show_purchased_quantity(){
+	global $product, $wpdb;
+	$date_from = date('Y-m-d H:i:s');
+	$date_to = date('Y-m-d H:i:s', strtotime('+24 hours'));
+
+	$result = $wpdb->get_row("SELECT SUM(`product_qty`) as total FROM {$wpdb->prefix}wc_order_product_lookup WHERE `product_id` = {$product->get_id()} AND `date_created` BETWEEN '{$date_from}' AND '{$date_to}'");
+
+	if($result->total > 0){
+		printf(_n("Purchased %s time in Last 24 Hours", "Purchased %s times in Last 24 Hours", $result->total, 'woocommerce'), $result->total);
+	}
+}
+
+function show_empty_cart_msg(){
+	echo '<p class="cart-empty alert alert-warning">' . wp_kses_post( apply_filters( 'wc_empty_cart_message', __( 'Your Basket is empty now.', 'woocommerce' ) ) ) . '</p>';
+}
+
+function wc_cart_calculate_fees($cart){
+	// print_r($cart);
+	// print_r($cart->get_cart_item_quantities());
+
+	foreach($cart->get_cart_item_quantities() as $id => $val){
+		$quantity = get_field('product_quantity', $id);
+		$percentage = get_field('discount_amount', $id);
+
+		if(isset($quantity) && isset($percentage) && $val >= $quantity){
+			// $product = wc_get_product($id);
+			// $total = ($product->get_price() * $val) / 100 * $percentage;
+
+			// $cart->add_fee("Discount on {$product->get_title()}", -$total);
+
+			// Using coupon
+			$coupon = new WC_Coupon('newyear_2022');
+			$applied_coupons = $cart->get_applied_coupons();
+
+			if(in_array($coupon->get_code(), $applied_coupons, true)){
+				return;
+			}
+			$coupon->set_amount($percentage);
+			$coupon->set_date_expires(date('Y-m-d H:i:s', strtotime('+48 hours')));
+			$coupon->save();
+			$cart->apply_coupon($coupon->get_code());
+		}
+	}
+}
+
+function show_cart_recommended_products(){
+	echo "<h2>". __("Recommended Products", "woocommerce") ."</h2>";
+
+	$query = new Wc_Product_Query(array(
+		'meta_key' => "recommended_product",
+		'meta_value' => true,
+		'meta_comparison' => "===",
+	));
+
+	$products = $query->get_products();
+
+	$recommended_products = [];
+	if(count($products) > 0){
+		foreach($products as $product){
+			$id = $product->get_id();
+			$recommended_products[] = $id;
+		}
+		$ids = implode(',', $recommended_products);
+		echo do_shortcode("[products ids='{$ids}' orderby='rand' per_page='5']");	
+	}
+	else{
+		_e("No recommeded products found", "woocommerce");		
+	}
+}
 
 ?>

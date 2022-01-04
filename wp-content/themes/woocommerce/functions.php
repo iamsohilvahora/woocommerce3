@@ -99,7 +99,8 @@ if ( ! function_exists( 'woocommerce_setup' ) ) :
 				'flex-width'  => true,
 				'flex-height' => true,
 			)
-		);
+		);		
+
 	}
 endif;
 add_action( 'after_setup_theme', 'woocommerce_setup' );
@@ -198,4 +199,10 @@ if ( defined( 'JETPACK__VERSION' ) ) {
  */
 require get_template_directory() . '/inc/woocommerce.php';
 
+add_action( 'after_setup_theme', 'load_woocommerce_setup' );
 
+function load_woocommerce_setup(){
+	add_theme_support('woocommerce');
+
+	add_theme_support('wc-product-gallery-slider');
+}
