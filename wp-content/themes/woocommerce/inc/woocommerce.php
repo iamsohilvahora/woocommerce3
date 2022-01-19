@@ -79,6 +79,26 @@ if(!function_exists('load_wc_features')){
 		    add_filter( 'woocommerce_settings_tabs_array','callback_function');
 		*/
 
+		// remove addtional information field from checkout page
+		add_filter('woocommerce_checkout_fields', 'wc_remove_checkout_fields');
+
+		// change css class on checkout page input fields
+		add_filter('woocommerce_form_field_args', 'wc_add_css_class_checkout_fields', 10, 3);
+
+		// Add custom field to the checkout page
+		add_action('woocommerce_after_order_notes', 'custom_checkout_field');
+
+		// Process extra fields on checkout page
+		add_action('woocommerce_checkout_process', 'wc_custom_checkout_field_process'); 
+
+		/** (part-19) - 
+		 * Custom media uploader for wordpress 
+		 * */
+
+		/** (part-21) - 
+		 * Product filter using ajax 
+		 * */
+
 
 	}
 }
@@ -299,6 +319,59 @@ function wc_before_checkout_form(){
 		$site_url = get_site_url();
 		wp_redirect($site_url.'/cart/');
 	}	
+}
+
+function wc_remove_checkout_fields($woo_checkout_fields_array){
+	// echo "<pre>";
+	// print_r($woo_checkout_fields_array);
+	// print_r($woo_checkout_fields_array['billing']);
+	
+	// unset( $woo_checkout_fields_array['billing']['billing_first_name'] );
+	// unset( $woo_checkout_fields_array['billing']['billing_last_name'] );
+	// unset( $woo_checkout_fields_array['billing']['billing_phone'] );
+	// unset( $woo_checkout_fields_array['billing']['billing_email'] );
+	// unset( $woo_checkout_fields_array['order']['order_comments'] ); // remove order notes
+	
+	// and to remove the billing fields below
+	unset($woo_checkout_fields_array['billing']['billing_company']); // remove company field
+	// unset( $woo_checkout_fields_array['billing']['billing_country'] );
+	// unset( $woo_checkout_fields_array['billing']['billing_address_1'] );
+	// unset( $woo_checkout_fields_array['billing']['billing_address_2'] );
+	// unset( $woo_checkout_fields_array['billing']['billing_city'] );
+	// unset( $woo_checkout_fields_array['billing']['billing_state'] ); // remove state field
+	// unset( $woo_checkout_fields_array['billing']['billing_postcode'] ); // remove zip code field
+
+	unset($woo_checkout_fields_array['order']['order_comments'] ); // remove additional info field
+
+	return $woo_checkout_fields_array;
+}
+
+function wc_add_css_class_checkout_fields($args, $key, $value){
+	if(isset($args['input_class']) && 'text' == $args['type']){
+		 $args['input_class'] = array_merge($args['input_class'], array('form-control'));
+	}
+    return $args;
+}
+
+function custom_checkout_field($checkout){
+	echo '<div id="custom_checkout_field">
+			<h2>' . __('New Heading') . '</h2>';
+
+	woocommerce_form_field('custom_field_name', array(
+		'type' => 'text',
+		'class' => array('my-field-class form-row-wide'),
+		'label' => __('Custom Additional Field'),
+		'placeholder' => __('New Custom Field'),
+	),
+	$checkout->get_value('custom_field_name'));
+	echo '</div>';
+}
+
+function wc_custom_checkout_field_process(){
+	// validate extra field
+	if(isset($_POST['custom_field_name']) && empty($_POST['custom_field_name'])){
+		wc_add_notice(__('Extra field is required', 'woocommerce'), 'error');
+	}
 }
 
 ?>
