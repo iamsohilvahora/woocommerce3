@@ -1,0 +1,472 @@
+2022-04-15T20:11:32+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php:121
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_loop_add_to_cart_link(NULL, NULL, Array)
+#1 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\woocommerce\cart\mini-cart.php(67): apply_filters('woocommerce_loo...', NULL, NULL, Array)
+#3 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wamp64\\www\\w...')
+#4 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2218): wc_get_template('cart/mini-cart....', Array)
+#5 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(183): woocommerce_mini_cart()
+#6 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): WC_AJAX::get_refreshed_fragments('')
+#7 D:\wamp6 in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php on line 121
+
+2022-04-15T20:17:19+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php:121
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_loop_add_to_cart_link(NULL, NULL, Array)
+#1 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\woocommerce\cart\mini-cart.php(67): apply_filters('woocommerce_loo...', NULL, NULL, Array)
+#3 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wamp64\\www\\w...')
+#4 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2218): wc_get_template('cart/mini-cart....', Array)
+#5 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(183): woocommerce_mini_cart()
+#6 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): WC_AJAX::get_refreshed_fragments('')
+#7 D:\wamp6 in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php on line 121
+
+2022-04-15T20:17:19+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php:121
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_loop_add_to_cart_link(NULL, NULL, Array)
+#1 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\woocommerce\cart\mini-cart.php(67): apply_filters('woocommerce_loo...', NULL, NULL, Array)
+#3 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wamp64\\www\\w...')
+#4 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2218): wc_get_template('cart/mini-cart....', Array)
+#5 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(183): woocommerce_mini_cart()
+#6 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): WC_AJAX::get_refreshed_fragments('')
+#7 D:\wamp6 in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php on line 121
+
+2022-04-15T20:24:06+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php:121
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_loop_add_to_cart_link(NULL, NULL, Array)
+#1 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\woocommerce\cart\mini-cart.php(67): apply_filters('woocommerce_loo...', NULL, NULL, Array)
+#3 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wamp64\\www\\w...')
+#4 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2218): wc_get_template('cart/mini-cart....', Array)
+#5 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(183): woocommerce_mini_cart()
+#6 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): WC_AJAX::get_refreshed_fragments('')
+#7 D:\wamp6 in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php on line 121
+
+2022-04-15T20:24:07+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php:121
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_loop_add_to_cart_link(NULL, NULL, Array)
+#1 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\woocommerce\cart\mini-cart.php(67): apply_filters('woocommerce_loo...', NULL, NULL, Array)
+#3 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wamp64\\www\\w...')
+#4 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2218): wc_get_template('cart/mini-cart....', Array)
+#5 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(183): woocommerce_mini_cart()
+#6 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): WC_AJAX::get_refreshed_fragments('')
+#7 D:\wamp6 in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php on line 121
+
+2022-04-15T20:42:22+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php:121
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_loop_add_to_cart_link(NULL, NULL, Array)
+#1 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\woocommerce\cart\mini-cart.php(67): apply_filters('woocommerce_loo...', NULL, NULL, Array)
+#3 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wamp64\\www\\w...')
+#4 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2218): wc_get_template('cart/mini-cart....', Array)
+#5 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(183): woocommerce_mini_cart()
+#6 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): WC_AJAX::get_refreshed_fragments('')
+#7 D:\wamp6 in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php on line 121
+
+2022-04-15T20:55:30+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php:121
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_loop_add_to_cart_link(NULL, NULL, Array)
+#1 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\woocommerce\cart\mini-cart.php(67): apply_filters('woocommerce_loo...', NULL, NULL, Array)
+#3 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wamp64\\www\\w...')
+#4 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2218): wc_get_template('cart/mini-cart....', Array)
+#5 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(183): woocommerce_mini_cart()
+#6 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): WC_AJAX::get_refreshed_fragments('')
+#7 D:\wamp6 in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php on line 121
+
+2022-04-15T21:08:32+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php:121
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_loop_add_to_cart_link(NULL, NULL, Array)
+#1 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\woocommerce\cart\mini-cart.php(67): apply_filters('woocommerce_loo...', NULL, NULL, Array)
+#3 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wamp64\\www\\w...')
+#4 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2218): wc_get_template('cart/mini-cart....', Array)
+#5 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(183): woocommerce_mini_cart()
+#6 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): WC_AJAX::get_refreshed_fragments('')
+#7 D:\wamp6 in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php on line 121
+
+2022-04-15T21:08:46+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php:121
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_loop_add_to_cart_link(NULL, NULL, Array)
+#1 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\woocommerce\cart\mini-cart.php(67): apply_filters('woocommerce_loo...', NULL, NULL, Array)
+#3 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wamp64\\www\\w...')
+#4 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2218): wc_get_template('cart/mini-cart....', Array)
+#5 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(183): woocommerce_mini_cart()
+#6 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): WC_AJAX::get_refreshed_fragments('')
+#7 D:\wamp6 in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php on line 121
+
+2022-04-15T21:09:13+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php:121
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_loop_add_to_cart_link(NULL, NULL, Array)
+#1 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\woocommerce\cart\mini-cart.php(67): apply_filters('woocommerce_loo...', NULL, NULL, Array)
+#3 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wamp64\\www\\w...')
+#4 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2218): wc_get_template('cart/mini-cart....', Array)
+#5 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(183): woocommerce_mini_cart()
+#6 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): WC_AJAX::get_refreshed_fragments('')
+#7 D:\wamp6 in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php on line 121
+
+2022-04-15T21:10:02+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php:121
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_loop_add_to_cart_link(NULL, NULL, Array)
+#1 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\woocommerce\cart\mini-cart.php(67): apply_filters('woocommerce_loo...', NULL, NULL, Array)
+#3 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wamp64\\www\\w...')
+#4 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2218): wc_get_template('cart/mini-cart....', Array)
+#5 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(183): woocommerce_mini_cart()
+#6 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): WC_AJAX::get_refreshed_fragments('')
+#7 D:\wamp6 in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php on line 121
+
+2022-04-15T21:10:25+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php:121
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_loop_add_to_cart_link(NULL, NULL, Array)
+#1 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\woocommerce\cart\mini-cart.php(67): apply_filters('woocommerce_loo...', NULL, NULL, Array)
+#3 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wamp64\\www\\w...')
+#4 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2218): wc_get_template('cart/mini-cart....', Array)
+#5 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(183): woocommerce_mini_cart()
+#6 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): WC_AJAX::get_refreshed_fragments('')
+#7 D:\wamp6 in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php on line 121
+
+2022-04-15T21:10:50+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php:121
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_loop_add_to_cart_link(NULL, NULL, Array)
+#1 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\woocommerce\cart\mini-cart.php(67): apply_filters('woocommerce_loo...', NULL, NULL, Array)
+#3 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wamp64\\www\\w...')
+#4 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2218): wc_get_template('cart/mini-cart....', Array)
+#5 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(183): woocommerce_mini_cart()
+#6 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): WC_AJAX::get_refreshed_fragments('')
+#7 D:\wamp6 in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php on line 121
+
+2022-04-15T21:11:19+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\functions.php:216
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_get_cart_data('')
+#1 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\woocommerce3\wp-settings.php(578): do_action('init')
+#4 D:\wamp64\www\woocommerce3\wp-config.php(96): require_once('D:\\wamp64\\www\\w...')
+#5 D:\wamp64\www\woocommerce3\wp-load.php(50): require_once('D:\\wamp64\\www\\w...')
+#6 D:\wamp64\www\woocommerce3\wp-cron.php(44): require_once('D:\\wamp64\\www\\w...')
+#7 {main}
+  thrown in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\functions.php on line 216
+
+2022-04-15T21:11:20+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php:121
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_loop_add_to_cart_link(NULL, NULL, Array)
+#1 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\woocommerce\cart\mini-cart.php(67): apply_filters('woocommerce_loo...', NULL, NULL, Array)
+#3 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wamp64\\www\\w...')
+#4 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2218): wc_get_template('cart/mini-cart....', Array)
+#5 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(183): woocommerce_mini_cart()
+#6 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): WC_AJAX::get_refreshed_fragments('')
+#7 D:\wamp6 in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php on line 121
+
+2022-04-15T21:11:40+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php:121
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_loop_add_to_cart_link(NULL, NULL, Array)
+#1 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\woocommerce\cart\mini-cart.php(67): apply_filters('woocommerce_loo...', NULL, NULL, Array)
+#3 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wamp64\\www\\w...')
+#4 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2218): wc_get_template('cart/mini-cart....', Array)
+#5 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(183): woocommerce_mini_cart()
+#6 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): WC_AJAX::get_refreshed_fragments('')
+#7 D:\wamp6 in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php on line 121
+
+2022-04-15T21:11:54+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\functions.php:216
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_get_cart_data('')
+#1 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\woocommerce3\wp-settings.php(578): do_action('init')
+#4 D:\wamp64\www\woocommerce3\wp-config.php(96): require_once('D:\\wamp64\\www\\w...')
+#5 D:\wamp64\www\woocommerce3\wp-load.php(50): require_once('D:\\wamp64\\www\\w...')
+#6 D:\wamp64\www\woocommerce3\wp-admin\admin.php(34): require_once('D:\\wamp64\\www\\w...')
+#7 D:\wamp64\www\woocommerce3\wp-admin\edit.php(10): require_once('D:\\wamp64\\www\\w...')
+#8 {main}
+  thrown in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\functions.php on line 216
+
+2022-04-15T21:12:45+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\functions.php:216
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_get_cart_data('')
+#1 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\woocommerce3\wp-settings.php(578): do_action('init')
+#4 D:\wamp64\www\woocommerce3\wp-config.php(96): require_once('D:\\wamp64\\www\\w...')
+#5 D:\wamp64\www\woocommerce3\wp-load.php(50): require_once('D:\\wamp64\\www\\w...')
+#6 D:\wamp64\www\woocommerce3\wp-cron.php(44): require_once('D:\\wamp64\\www\\w...')
+#7 {main}
+  thrown in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\functions.php on line 216
+
+2022-04-15T21:12:47+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\functions.php:216
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_get_cart_data('')
+#1 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\woocommerce3\wp-settings.php(578): do_action('init')
+#4 D:\wamp64\www\woocommerce3\wp-config.php(96): require_once('D:\\wamp64\\www\\w...')
+#5 D:\wamp64\www\woocommerce3\wp-load.php(50): require_once('D:\\wamp64\\www\\w...')
+#6 D:\wamp64\www\woocommerce3\wp-cron.php(44): require_once('D:\\wamp64\\www\\w...')
+#7 {main}
+  thrown in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\functions.php on line 216
+
+2022-04-15T21:13:25+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php:121
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_loop_add_to_cart_link(NULL, NULL, Array)
+#1 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\woocommerce\cart\mini-cart.php(67): apply_filters('woocommerce_loo...', NULL, NULL, Array)
+#3 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wamp64\\www\\w...')
+#4 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2218): wc_get_template('cart/mini-cart....', Array)
+#5 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(183): woocommerce_mini_cart()
+#6 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): WC_AJAX::get_refreshed_fragments('')
+#7 D:\wamp6 in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php on line 121
+
+2022-04-15T21:15:58+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\functions.php:213
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_get_cart_data('')
+#1 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\woocommerce3\wp-settings.php(578): do_action('init')
+#4 D:\wamp64\www\woocommerce3\wp-config.php(96): require_once('D:\\wamp64\\www\\w...')
+#5 D:\wamp64\www\woocommerce3\wp-load.php(50): require_once('D:\\wamp64\\www\\w...')
+#6 D:\wamp64\www\woocommerce3\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\w...')
+#7 D:\wamp64\www\woocommerce3\index.php(17): require('D:\\wamp64\\www\\w...')
+#8 {main}
+  thrown in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\functions.php on line 213
+
+2022-04-15T21:15:59+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\functions.php:213
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_get_cart_data('')
+#1 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\woocommerce3\wp-settings.php(578): do_action('init')
+#4 D:\wamp64\www\woocommerce3\wp-config.php(96): require_once('D:\\wamp64\\www\\w...')
+#5 D:\wamp64\www\woocommerce3\wp-load.php(50): require_once('D:\\wamp64\\www\\w...')
+#6 D:\wamp64\www\woocommerce3\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\w...')
+#7 {main}
+  thrown in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\functions.php on line 213
+
+2022-04-15T21:17:24+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\functions.php:213
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_get_cart_data('')
+#1 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\woocommerce3\wp-settings.php(578): do_action('init')
+#4 D:\wamp64\www\woocommerce3\wp-config.php(96): require_once('D:\\wamp64\\www\\w...')
+#5 D:\wamp64\www\woocommerce3\wp-load.php(50): require_once('D:\\wamp64\\www\\w...')
+#6 D:\wamp64\www\woocommerce3\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\w...')
+#7 {main}
+  thrown in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\functions.php on line 213
+
+2022-04-15T21:17:45+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\functions.php:213
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_get_cart_data('')
+#1 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\woocommerce3\wp-settings.php(578): do_action('init')
+#4 D:\wamp64\www\woocommerce3\wp-config.php(96): require_once('D:\\wamp64\\www\\w...')
+#5 D:\wamp64\www\woocommerce3\wp-load.php(50): require_once('D:\\wamp64\\www\\w...')
+#6 D:\wamp64\www\woocommerce3\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\w...')
+#7 D:\wamp64\www\woocommerce3\index.php(17): require('D:\\wamp64\\www\\w...')
+#8 {main}
+  thrown in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\functions.php on line 213
+
+2022-04-15T21:18:48+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\functions.php:218
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_get_cart_data('')
+#1 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\woocommerce3\wp-settings.php(578): do_action('init')
+#4 D:\wamp64\www\woocommerce3\wp-config.php(96): require_once('D:\\wamp64\\www\\w...')
+#5 D:\wamp64\www\woocommerce3\wp-load.php(50): require_once('D:\\wamp64\\www\\w...')
+#6 D:\wamp64\www\woocommerce3\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\w...')
+#7 D:\wamp64\www\woocommerce3\index.php(17): require('D:\\wamp64\\www\\w...')
+#8 {main}
+  thrown in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\functions.php on line 218
+
+2022-04-15T21:19:25+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\functions.php:213
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_get_cart_data('')
+#1 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\woocommerce3\wp-settings.php(578): do_action('init')
+#4 D:\wamp64\www\woocommerce3\wp-config.php(96): require_once('D:\\wamp64\\www\\w...')
+#5 D:\wamp64\www\woocommerce3\wp-load.php(50): require_once('D:\\wamp64\\www\\w...')
+#6 D:\wamp64\www\woocommerce3\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\w...')
+#7 {main}
+  thrown in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\functions.php on line 213
+
+2022-04-15T21:19:30+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\functions.php:213
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_get_cart_data('')
+#1 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\woocommerce3\wp-settings.php(578): do_action('init')
+#4 D:\wamp64\www\woocommerce3\wp-config.php(96): require_once('D:\\wamp64\\www\\w...')
+#5 D:\wamp64\www\woocommerce3\wp-load.php(50): require_once('D:\\wamp64\\www\\w...')
+#6 D:\wamp64\www\woocommerce3\wp-blog-header.php(13): require_once('D:\\wamp64\\www\\w...')
+#7 D:\wamp64\www\woocommerce3\index.php(17): require('D:\\wamp64\\www\\w...')
+#8 {main}
+  thrown in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\functions.php on line 213
+
+2022-04-15T21:21:27+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\functions.php:213
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_get_cart_data('')
+#1 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\woocommerce3\wp-settings.php(578): do_action('init')
+#4 D:\wamp64\www\woocommerce3\wp-config.php(96): require_once('D:\\wamp64\\www\\w...')
+#5 D:\wamp64\www\woocommerce3\wp-load.php(50): require_once('D:\\wamp64\\www\\w...')
+#6 D:\wamp64\www\woocommerce3\wp-admin\admin-ajax.php(22): require_once('D:\\wamp64\\www\\w...')
+#7 {main}
+  thrown in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\functions.php on line 213
+
+2022-04-15T21:24:30+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\functions.php:213
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_get_cart_data('')
+#1 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\woocommerce3\wp-settings.php(578): do_action('init')
+#4 D:\wamp64\www\woocommerce3\wp-config.php(96): require_once('D:\\wamp64\\www\\w...')
+#5 D:\wamp64\www\woocommerce3\wp-load.php(50): require_once('D:\\wamp64\\www\\w...')
+#6 D:\wamp64\www\woocommerce3\wp-admin\admin.php(34): require_once('D:\\wamp64\\www\\w...')
+#7 D:\wamp64\www\woocommerce3\wp-admin\index.php(10): require_once('D:\\wamp64\\www\\w...')
+#8 {main}
+  thrown in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\functions.php on line 213
+
+2022-04-15T21:39:10+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\functions.php:213
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_get_cart_data('')
+#1 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\wamp64\www\woocommerce3\wp-settings.php(578): do_action('init')
+#4 D:\wamp64\www\woocommerce3\wp-config.php(96): require_once('D:\\wamp64\\www\\w...')
+#5 D:\wamp64\www\woocommerce3\wp-load.php(50): require_once('D:\\wamp64\\www\\w...')
+#6 D:\wamp64\www\woocommerce3\wp-admin\admin.php(34): require_once('D:\\wamp64\\www\\w...')
+#7 D:\wamp64\www\woocommerce3\wp-admin\index.php(10): require_once('D:\\wamp64\\www\\w...')
+#8 {main}
+  thrown in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\functions.php on line 213
+
+2022-04-15T21:43:21+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php:121
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_loop_add_to_cart_link(NULL, NULL, Array)
+#1 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\woocommerce\cart\mini-cart.php(67): apply_filters('woocommerce_loo...', NULL, NULL, Array)
+#3 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wamp64\\www\\w...')
+#4 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2218): wc_get_template('cart/mini-cart....', Array)
+#5 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(183): woocommerce_mini_cart()
+#6 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): WC_AJAX::get_refreshed_fragments('')
+#7 D:\wamp6 in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php on line 121
+
+2022-04-15T21:43:28+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php:121
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_loop_add_to_cart_link(NULL, NULL, Array)
+#1 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\woocommerce\cart\mini-cart.php(67): apply_filters('woocommerce_loo...', NULL, NULL, Array)
+#3 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wamp64\\www\\w...')
+#4 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2218): wc_get_template('cart/mini-cart....', Array)
+#5 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(183): woocommerce_mini_cart()
+#6 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): WC_AJAX::get_refreshed_fragments('')
+#7 D:\wamp6 in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php on line 121
+
+2022-04-15T21:43:38+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php:121
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_loop_add_to_cart_link(NULL, NULL, Array)
+#1 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\woocommerce\cart\mini-cart.php(67): apply_filters('woocommerce_loo...', NULL, NULL, Array)
+#3 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wamp64\\www\\w...')
+#4 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2218): wc_get_template('cart/mini-cart....', Array)
+#5 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(183): woocommerce_mini_cart()
+#6 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): WC_AJAX::get_refreshed_fragments('')
+#7 D:\wamp6 in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php on line 121
+
+2022-04-15T21:43:41+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php:121
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_loop_add_to_cart_link(NULL, NULL, Array)
+#1 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\woocommerce\cart\mini-cart.php(67): apply_filters('woocommerce_loo...', NULL, NULL, Array)
+#3 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wamp64\\www\\w...')
+#4 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2218): wc_get_template('cart/mini-cart....', Array)
+#5 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(183): woocommerce_mini_cart()
+#6 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): WC_AJAX::get_refreshed_fragments('')
+#7 D:\wamp6 in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php on line 121
+
+2022-04-15T21:44:50+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php:121
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_loop_add_to_cart_link(NULL, NULL, Array)
+#1 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\woocommerce\cart\mini-cart.php(67): apply_filters('woocommerce_loo...', NULL, NULL, Array)
+#3 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wamp64\\www\\w...')
+#4 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2218): wc_get_template('cart/mini-cart....', Array)
+#5 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(183): woocommerce_mini_cart()
+#6 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): WC_AJAX::get_refreshed_fragments('')
+#7 D:\wamp6 in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php on line 121
+
+2022-04-15T21:45:19+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php:121
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_loop_add_to_cart_link(NULL, NULL, Array)
+#1 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\woocommerce\cart\mini-cart.php(67): apply_filters('woocommerce_loo...', NULL, NULL, Array)
+#3 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wamp64\\www\\w...')
+#4 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2218): wc_get_template('cart/mini-cart....', Array)
+#5 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(183): woocommerce_mini_cart()
+#6 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): WC_AJAX::get_refreshed_fragments('')
+#7 D:\wamp6 in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php on line 121
+
+2022-04-15T21:45:42+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php:121
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_loop_add_to_cart_link(NULL, NULL, Array)
+#1 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\woocommerce\cart\mini-cart.php(67): apply_filters('woocommerce_loo...', NULL, NULL, Array)
+#3 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wamp64\\www\\w...')
+#4 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2218): wc_get_template('cart/mini-cart....', Array)
+#5 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(183): woocommerce_mini_cart()
+#6 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): WC_AJAX::get_refreshed_fragments('')
+#7 D:\wamp6 in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php on line 121
+
+2022-04-15T21:46:29+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php:121
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_loop_add_to_cart_link(NULL, NULL, Array)
+#1 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\woocommerce\cart\mini-cart.php(67): apply_filters('woocommerce_loo...', NULL, NULL, Array)
+#3 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wamp64\\www\\w...')
+#4 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2218): wc_get_template('cart/mini-cart....', Array)
+#5 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(183): woocommerce_mini_cart()
+#6 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): WC_AJAX::get_refreshed_fragments('')
+#7 D:\wamp6 in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php on line 121
+
+2022-04-15T21:46:42+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php:121
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_loop_add_to_cart_link(NULL, NULL, Array)
+#1 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\woocommerce\cart\mini-cart.php(67): apply_filters('woocommerce_loo...', NULL, NULL, Array)
+#3 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wamp64\\www\\w...')
+#4 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2218): wc_get_template('cart/mini-cart....', Array)
+#5 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(183): woocommerce_mini_cart()
+#6 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): WC_AJAX::get_refreshed_fragments('')
+#7 D:\wamp6 in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php on line 121
+
+2022-04-15T22:10:17+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php:121
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_loop_add_to_cart_link(NULL, NULL, Array)
+#1 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\woocommerce\cart\mini-cart.php(67): apply_filters('woocommerce_loo...', NULL, NULL, Array)
+#3 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wamp64\\www\\w...')
+#4 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2218): wc_get_template('cart/mini-cart....', Array)
+#5 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(183): woocommerce_mini_cart()
+#6 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): WC_AJAX::get_refreshed_fragments('')
+#7 D:\wamp6 in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php on line 121
+
+2022-04-15T22:10:20+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php:121
+Stack trace:
+#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): wc_loop_add_to_cart_link(NULL, NULL, Array)
+#1 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\woocommerce\cart\mini-cart.php(67): apply_filters('woocommerce_loo...', NULL, NULL, Array)
+#3 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wamp64\\www\\w...')
+#4 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2218): wc_get_template('cart/mini-cart....', Array)
+#5 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(183): woocommerce_mini_cart()
+#6 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(303): WC_AJAX::get_refreshed_fragments('')
+#7 D:\wamp6 in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php on line 121
+

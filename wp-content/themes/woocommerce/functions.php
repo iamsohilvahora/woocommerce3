@@ -206,3 +206,4 @@ function load_woocommerce_setup(){
 
 	add_theme_support('wc-product-gallery-slider');
 }
+

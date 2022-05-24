@@ -1,9 +1,0 @@
-2021-12-26T07:46:54+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_loop_add_to_cart_link(), 1 passed in D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php on line 305 and exactly 3 expected in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php:43
-Stack trace:
-#0 D:\wamp64\www\woocommerce3\wp-includes\class-wp-hook.php(305): wc_loop_add_to_cart_link('<a href="?add-t...')
-#1 D:\wamp64\www\woocommerce3\wp-includes\plugin.php(189): WP_Hook->apply_filters('<a href="?add-t...', Array)
-#2 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\templates\loop\add-to-cart.php(35): apply_filters('woocommerce_loo...', '<a href="?add-t...', Object(WC_Product_Simple), Array)
-#3 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('D:\\wamp64\\www\\w...')
-#4 D:\wamp64\www\woocommerce3\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1356): wc_get_template('loop/add-to-car...', Array)
-#5 D:\wamp64\www\woocommerce3\wp-includes\cla in D:\wamp64\www\woocommerce3\wp-content\themes\woocommerce\inc\woocommerce.php on line 43
-
