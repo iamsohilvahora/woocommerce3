@@ -1,0 +1,29 @@
+<div class="expertrec-modal">
+    <div class="expertrec-modal-content">
+        <span onclick="expertrec_deactivate_close()" class="expertrec-deactivate-close-button">&times;</span>
+        <form class="expertrec-deactivate-form">
+            <h2>Feedback Form</h2>
+            
+            <hr>
+            
+            <h4>Please tell us why you are deactivating. It will help us to improve our product.</h4>
+            <p>Reason for deactivation</p>
+            <select class="expertrec-deactivate-select" required="required">
+                <option value="">Select</option>
+                <option value="1">I no longer need the plugin</option>
+                <option value="2">I found a better plugin</option>
+                <option value="3">I only needed the plugin for a short time</option>
+                <option value="4">The plugin broke my site</option>
+                <option value="5">The plugin suddenly stopped working</option>
+                <option value="6">Other</option>
+            </select>
+              
+            <p>Describe your experience</p>
+            <textarea class="expertrec-deactivate-input" maxlength="1000"></textarea>
+        </form>
+        <div class="expertrec-deactivate-btn-div">
+            <button onclick="expertrec_deactivate()" class="expertrec-deactivate-btn">Submit & Deactivate</button>
+            <button onclick="expertrec_deactivate_close()" class="expertrec-deactivate-cancel-btn">Cancel</button>
+        </div>
+    </div>
+</div>

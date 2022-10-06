@@ -1,0 +1,131 @@
+Sep 12, 2022 - 19:31:46 | indexDocs | Indexing Docs started
+Sep 12, 2022 - 19:31:46 | indexDocs | Indexing for Doctype product
+Sep 12, 2022 - 19:31:46 | indexDocs | Doc Count for Doctype product is: 17
+Sep 12, 2022 - 19:31:46 | indexDocs | Variable offset, batchsize, docType are: 0, 5, product
+Sep 12, 2022 - 19:31:46 | indexDocs | got 5 Posts from DB
+Sep 12, 2022 - 19:31:46 | createDoc | Creating doc for 50 having url: http://localhost/woocommerce3/product/wordpress-pennant/
+Sep 12, 2022 - 19:31:48 | createDoc | Creating doc for 49 having url: http://localhost/woocommerce3/product/logo-collection/
+Sep 12, 2022 - 19:31:48 | createDoc | Creating doc for 48 having url: http://localhost/woocommerce3/product/beanie-with-logo/
+Sep 12, 2022 - 19:31:49 | createDoc | Creating doc for 47 having url: http://localhost/woocommerce3/product/t-shirt-with-logo/
+Sep 12, 2022 - 19:31:49 | createDoc | Creating doc for 40 having url: http://localhost/woocommerce3/product/single/
+Sep 12, 2022 - 19:31:49 | indexDocs | Calling sendData function
+Sep 12, 2022 - 19:31:49 | indexDocs | URL is: https://data.expertrec.com/1/indexes/32a948f44b014f44ac4db121dcf29d51/batch
+Sep 12, 2022 - 19:31:49 | indexDocs | Headers are: Array
+(
+    [User-Agent] => EXP Wordpress Plugin/4.1.18
+    [X-Expertrec-API-Key] => DU1N2U0NWFmYjIwZmFmNmE2NTJmOGN
+    [Content-type] => application/json
+)
+
+Sep 12, 2022 - 19:31:50 | indexDocs | {"status_flag": true, "status": "success", "comment": "Update Succeed"}
+Sep 12, 2022 - 19:31:50 | indexDocs | Variable offset, batchsize, docType are: 5, 5, product
+Sep 12, 2022 - 19:31:50 | indexDocs | got 5 Posts from DB
+Sep 12, 2022 - 19:31:50 | createDoc | Creating doc for 39 having url: http://localhost/woocommerce3/product/album/
+Sep 12, 2022 - 19:31:50 | createDoc | Creating doc for 38 having url: http://localhost/woocommerce3/product/polo/
+Sep 12, 2022 - 19:31:50 | createDoc | Creating doc for 37 having url: http://localhost/woocommerce3/product/long-sleeve-tee/
+Sep 12, 2022 - 19:31:50 | createDoc | Creating doc for 36 having url: http://localhost/woocommerce3/product/hoodie-with-zipper/
+Sep 12, 2022 - 19:31:51 | createDoc | Creating doc for 35 having url: http://localhost/woocommerce3/product/hoodie-with-pocket/
+Sep 12, 2022 - 19:31:51 | indexDocs | Calling sendData function
+Sep 12, 2022 - 19:31:51 | indexDocs | URL is: https://data.expertrec.com/1/indexes/32a948f44b014f44ac4db121dcf29d51/batch
+Sep 12, 2022 - 19:31:51 | indexDocs | Headers are: Array
+(
+    [User-Agent] => EXP Wordpress Plugin/4.1.18
+    [X-Expertrec-API-Key] => DU1N2U0NWFmYjIwZmFmNmE2NTJmOGN
+    [Content-type] => application/json
+)
+
+Sep 12, 2022 - 19:31:52 | indexDocs | {"status_flag": true, "status": "success", "comment": "Update Succeed"}
+Sep 12, 2022 - 19:31:52 | indexDocs | Variable offset, batchsize, docType are: 10, 5, product
+Sep 12, 2022 - 19:31:52 | indexDocs | got 5 Posts from DB
+Sep 12, 2022 - 19:31:52 | createDoc | Creating doc for 34 having url: http://localhost/woocommerce3/product/sunglasses/
+Sep 12, 2022 - 19:31:53 | createDoc | Creating doc for 33 having url: http://localhost/woocommerce3/product/cap/
+Sep 12, 2022 - 19:31:53 | createDoc | Creating doc for 32 having url: http://localhost/woocommerce3/product/belt/
+Sep 12, 2022 - 19:31:53 | createDoc | Creating doc for 31 having url: http://localhost/woocommerce3/product/beanie/
+Sep 12, 2022 - 19:31:53 | createDoc | Creating doc for 30 having url: http://localhost/woocommerce3/product/t-shirt/
+Sep 12, 2022 - 19:31:53 | indexDocs | Calling sendData function
+Sep 12, 2022 - 19:31:53 | indexDocs | URL is: https://data.expertrec.com/1/indexes/32a948f44b014f44ac4db121dcf29d51/batch
+Sep 12, 2022 - 19:31:53 | indexDocs | Headers are: Array
+(
+    [User-Agent] => EXP Wordpress Plugin/4.1.18
+    [X-Expertrec-API-Key] => DU1N2U0NWFmYjIwZmFmNmE2NTJmOGN
+    [Content-type] => application/json
+)
+
+Sep 12, 2022 - 19:31:54 | indexDocs | {"status_flag": true, "status": "success", "comment": "Update Succeed"}
+Sep 12, 2022 - 19:31:54 | indexDocs | Variable offset, batchsize, docType are: 15, 5, product
+Sep 12, 2022 - 19:31:54 | indexDocs | got 2 Posts from DB
+Sep 12, 2022 - 19:31:54 | createDoc | Creating doc for 29 having url: http://localhost/woocommerce3/product/hoodie-with-logo/
+Sep 12, 2022 - 19:31:54 | createDoc | Creating doc for 27 having url: http://localhost/woocommerce3/product/v-neck-t-shirt/
+Sep 12, 2022 - 19:31:57 | indexDocs | Calling sendData function
+Sep 12, 2022 - 19:31:57 | indexDocs | URL is: https://data.expertrec.com/1/indexes/32a948f44b014f44ac4db121dcf29d51/batch
+Sep 12, 2022 - 19:31:57 | indexDocs | Headers are: Array
+(
+    [User-Agent] => EXP Wordpress Plugin/4.1.18
+    [X-Expertrec-API-Key] => DU1N2U0NWFmYjIwZmFmNmE2NTJmOGN
+    [Content-type] => application/json
+)
+
+Sep 12, 2022 - 19:31:58 | indexDocs | {"status_flag": true, "status": "success", "comment": "Update Succeed"}
+Sep 12, 2022 - 19:31:58 | indexDocs | Variable offset, batchsize, docType are: 17, 5, product
+Sep 12, 2022 - 19:31:58 | indexDocs | got 0 Posts from DB
+Sep 12, 2022 - 19:31:58 | indexDocs | Indexing for Doctype post
+Sep 12, 2022 - 19:31:58 | indexDocs | Doc Count for Doctype post is: 1
+Sep 12, 2022 - 19:31:58 | indexDocs | Variable offset, batchsize, docType are: 0, 5, post
+Sep 12, 2022 - 19:31:58 | indexDocs | got 1 Posts from DB
+Sep 12, 2022 - 19:31:58 | createDoc | Creating doc for 1 having url: http://localhost/woocommerce3/hello-world/
+Sep 12, 2022 - 19:31:59 | indexDocs | Calling sendData function
+Sep 12, 2022 - 19:31:59 | indexDocs | URL is: https://data.expertrec.com/1/indexes/32a948f44b014f44ac4db121dcf29d51/batch
+Sep 12, 2022 - 19:31:59 | indexDocs | Headers are: Array
+(
+    [User-Agent] => EXP Wordpress Plugin/4.1.18
+    [X-Expertrec-API-Key] => DU1N2U0NWFmYjIwZmFmNmE2NTJmOGN
+    [Content-type] => application/json
+)
+
+Sep 12, 2022 - 19:32:01 | indexDocs | {"status_flag": true, "status": "success", "comment": "Update Succeed"}
+Sep 12, 2022 - 19:32:01 | indexDocs | Indexing for Doctype page
+Sep 12, 2022 - 19:32:01 | indexDocs | Doc Count for Doctype page is: 7
+Sep 12, 2022 - 19:32:01 | indexDocs | Variable offset, batchsize, docType are: 0, 5, page
+Sep 12, 2022 - 19:32:02 | indexDocs | got 5 Posts from DB
+Sep 12, 2022 - 19:32:02 | createDoc | Creating doc for 107 having url: http://localhost/woocommerce3/expertrec-search/
+Sep 12, 2022 - 19:32:02 | createDoc | Creating doc for 13 having url: http://localhost/woocommerce3/my-account/
+Sep 12, 2022 - 19:32:06 | createDoc | Creating doc for 12 having url: http://localhost/woocommerce3/checkout/
+Sep 12, 2022 - 19:32:08 | createDoc | Creating doc for 11 having url: http://localhost/woocommerce3/cart/
+Sep 12, 2022 - 19:32:09 | createDoc | Creating doc for 10 having url: http://localhost/woocommerce3/shop/
+Sep 12, 2022 - 19:32:09 | indexDocs | Calling sendData function
+Sep 12, 2022 - 19:32:09 | indexDocs | URL is: https://data.expertrec.com/1/indexes/32a948f44b014f44ac4db121dcf29d51/batch
+Sep 12, 2022 - 19:32:09 | indexDocs | Headers are: Array
+(
+    [User-Agent] => EXP Wordpress Plugin/4.1.18
+    [X-Expertrec-API-Key] => DU1N2U0NWFmYjIwZmFmNmE2NTJmOGN
+    [Content-type] => application/json
+)
+
+Sep 12, 2022 - 19:32:11 | indexDocs | {"status_flag": true, "status": "success", "comment": "Update Succeed"}
+Sep 12, 2022 - 19:32:11 | indexDocs | Variable offset, batchsize, docType are: 5, 5, page
+Sep 12, 2022 - 19:32:11 | indexDocs | got 2 Posts from DB
+Sep 12, 2022 - 19:32:11 | createDoc | Creating doc for 5 having url: http://localhost/woocommerce3/
+Sep 12, 2022 - 19:32:11 | createDoc | Creating doc for 2 having url: http://localhost/woocommerce3/sample-page/
+Sep 12, 2022 - 19:32:11 | indexDocs | Calling sendData function
+Sep 12, 2022 - 19:32:11 | indexDocs | URL is: https://data.expertrec.com/1/indexes/32a948f44b014f44ac4db121dcf29d51/batch
+Sep 12, 2022 - 19:32:11 | indexDocs | Headers are: Array
+(
+    [User-Agent] => EXP Wordpress Plugin/4.1.18
+    [X-Expertrec-API-Key] => DU1N2U0NWFmYjIwZmFmNmE2NTJmOGN
+    [Content-type] => application/json
+)
+
+Sep 12, 2022 - 19:32:14 | indexDocs | {"status_flag": true, "status": "success", "comment": "Update Succeed"}
+Sep 12, 2022 - 19:32:14 | indexDocs | Variable offset, batchsize, docType are: 7, 5, page
+Sep 12, 2022 - 19:32:14 | indexDocs | got 0 Posts from DB
+Sep 12, 2022 - 19:32:14 | indexDocs | Indexing completed
+Sep 12, 2022 - 19:32:14 | end_sync | Calling sendData function
+Sep 12, 2022 - 19:32:14 | end_sync | URL is: https://data.expertrec.com/1/indexes/32a948f44b014f44ac4db121dcf29d51/end_sync
+Sep 12, 2022 - 19:32:14 | end_sync | Headers are: Array
+(
+    [User-Agent] => EXP Wordpress Plugin/4.1.18
+    [X-Expertrec-API-Key] => DU1N2U0NWFmYjIwZmFmNmE2NTJmOGN
+    [Content-type] => application/json
+)
+
+Sep 12, 2022 - 19:32:15 | end_sync | {"status_flag": true, "status": "success", "comment": "db clean up successful:  32a948f44b014f44ac4db121dcf29d51"}

@@ -193,17 +193,13 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
-
 /**
  * Load WooCommerce file
  */
 require get_template_directory() . '/inc/woocommerce.php';
 
-add_action( 'after_setup_theme', 'load_woocommerce_setup' );
-
 function load_woocommerce_setup(){
 	add_theme_support('woocommerce');
-
 	add_theme_support('wc-product-gallery-slider');
 }
-
+add_action('after_setup_theme', 'load_woocommerce_setup');

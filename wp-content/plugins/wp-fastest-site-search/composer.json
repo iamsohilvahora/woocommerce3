@@ -1,0 +1,39 @@
+{
+    "name": "expertrec/wp-fastest-site-search",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Ankit Kumar",
+            "email": "kumar@expertrec.com"
+        }
+    ],
+    "require": {
+        "sentry/sentry": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Symfony\\Polyfill\\Uuid\\": "/symfony/polyfill-uuid",
+            "Symfony\\Polyfill\\Php80\\": "/symfony/polyfill-php80",
+            "Symfony\\Contracts\\Service\\": "/symfony/service-contracts",
+            "Symfony\\Contracts\\HttpClient\\": "/symfony/http-client-contracts",
+            "Symfony\\Component\\OptionsResolver\\": "/symfony/options-resolver",
+            "Symfony\\Component\\HttpClient\\": "/symfony/http-client",
+            "Sentry\\": "/sentry/sentry/src",
+            "Psr\\Log\\": "/psr/log/src",
+            "Psr\\Http\\Message\\": "/psr/http-message/src",
+            "Psr\\Http\\Client\\": "/psr/http-client/src",
+            "Psr\\Container\\": "/psr/container/src",
+            "Jean85\\": "/jean85/pretty-package-versions/src",
+            "Http\\Promise\\": "/php-http/promise/src",
+            "Http\\Message\\": "/php-http/message-factory/src",
+            "Http\\Factory\\Guzzle\\": "/http-interop/http-factory-guzzle/src",
+            "Http\\Discovery\\": "/php-http/discovery/src",
+            "Http\\Client\\Common\\": "/php-http/client-common/src",
+            "Http\\Client\\": "/php-http/httplug/src",
+            "GuzzleHttp\\Psr7\\": "/guzzlehttp/psr7/src",
+            "GuzzleHttp\\Promise\\": "/guzzlehttp/promises/src",
+            "Clue\\StreamFilter\\": "/clue/stream-filter/src"
+        }
+    }
+}

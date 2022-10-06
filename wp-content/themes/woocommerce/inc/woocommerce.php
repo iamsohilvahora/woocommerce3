@@ -8,7 +8,6 @@
 /*************************************************/
 
 // load woocommerce features
-add_action('init', 'load_wc_features');
 if(!function_exists('load_wc_features')){
 	function load_wc_features(){
 		// add classes to product title
@@ -102,6 +101,7 @@ if(!function_exists('load_wc_features')){
 
 	}
 }
+add_action('init', 'load_wc_features');
 
 // add custom classes to product title (find hooked function in plugin folder)
 if(!function_exists('custom_woocommerce_product_title')){
